@@ -1,0 +1,22 @@
+{
+  "name": "ian_website_backend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianPineda01/ian_website_backend.git"
+  },
+  "author": "ianPineda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianPineda01/ian_website_backend/issues"
+  },
+  "homepage": "https://github.com/ianPineda01/ian_website_backend#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
