@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ianPineda01/ian_website_backend#readme",
   "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
     "express": "^4.17.2"
   }
 }
