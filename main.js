@@ -29,3 +29,12 @@ app.post("/log_visit", () => {
         fs.writeFile('visitor_count.txt', data);
     });
 });
+
+app.post("/get_visits", (req, res) => {
+    fs.readFile('visitor_count.txt', 'utf-8')
+    .then(data => {
+        res.json({
+            number_of_visits : data
+        });
+    });
+})
